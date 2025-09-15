@@ -5,7 +5,7 @@ import typescriptEslint from "typescript-eslint";
 
 export default [
   {
-    files: ["**/*.ts", "**/*.tsx"],
+    files: ["**/*.ts", "**/*.tsx", "**/*.js"],
     plugins: {
       "@next/next": nextPlugin,
       react: reactPlugin,
