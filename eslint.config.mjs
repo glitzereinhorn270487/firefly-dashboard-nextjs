@@ -23,7 +23,6 @@ export default [
       ...nextPlugin.configs["core-web-vitals"].rules,
       ...reactPlugin.configs.recommended.rules,
       ...hooksPlugin.configs.recommended.rules,
-      // Deaktiviere die Regel, die wir nicht mehr brauchen
       "react/react-in-jsx-scope": "off",
     },
     settings: {
